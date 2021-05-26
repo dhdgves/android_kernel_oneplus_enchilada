@@ -6,7 +6,7 @@
 
 ### 我做了什么
 
-第一，单纯的升级了一下linux修订版本，尽量保持与[kernel.org](kernel.org)中LTS的版本一致。
+第一，单纯的升级了一下linux修订版本，尽量保持与[kernel.org](https://www.kernel.org/)中LTS的版本一致。
 
 第二，因为要玩chroot的archlinux，开启了SVSY SPI的支持，修改了kronic_defconfig，这是sdm845-common中指定的默认配置（fakeroot需要，yay需要fakeroot）。如果你要玩ubuntu,可以选择在Makefile中把修订版本改为一个小于255的数字。
 
